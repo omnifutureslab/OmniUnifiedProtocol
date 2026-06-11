@@ -24,7 +24,7 @@ with st.sidebar:
     st.subheader("📁 Project Folders")
     project_folder = st.selectbox(
         "Select Active Workspace:",
-        ["[ENG-CAD] Structural Audits", "[FIN-MODEL] Q2 Projections", "[RESEARCH] Absolute Now (2026)", "[GENERAL] Sandbox"]
+        ["[ENG-CAD] Structural Audits", "[FIN-MODEL] Computational Mode", "[RESEARCH] Research and Trend (2026)", "[GENERAL] Sandbox"]
     )
     
     st.markdown("---")
